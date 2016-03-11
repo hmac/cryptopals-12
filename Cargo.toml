@@ -1,0 +1,12 @@
+[package]
+
+name = "12"
+version = "0.0.1"
+authors = ["Harry Maclean <harryjmaclean@googlemail.com>"]
+
+[dependencies.crypto]
+path = "../crypto"
+
+[dependencies]
+rand = "0.3.14"
+rustc-serialize = "0.3.18"
